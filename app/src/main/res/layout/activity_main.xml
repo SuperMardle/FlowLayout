@@ -1,43 +1,98 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E1E6F6"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <com.example.matao.flowlayoutdemo.FlowLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
+            style="@style/tv_flow_1"
             android:text="hello" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
+            style="@style/tv_flow_1"
             android:text="xxxxxxxxx" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
+            style="@style/tv_flow_1"
             android:text="hahah" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
+            style="@style/tv_flow_1"
             android:text="x" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
+            style="@style/tv_flow_1"
             android:text="LinnxXXXXX" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
+            style="@style/tv_flow_1"
             android:text="hello" />
+
+        <TextView
+            style="@style/tv_flow_1"
+            android:text="matao android goxxx" />
+
+        <TextView
+            style="@style/tv_flow_1"
+            android:text="yo give me five" />
+
+        <TextView
+            style="@style/tv_flow_1"
+            android:text="ppnn13% dkstFeb.1st" />
 
     </com.example.matao.flowlayoutdemo.FlowLayout>
 
-</RelativeLayout>
+    <com.example.matao.flowlayoutdemo.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            style="@style/tv_flow_2"
+            android:text="helloxxxxxxxx" />
+
+        <TextView
+            style="@style/tv_flow_2"
+            android:text="sdfas" />
+
+        <TextView
+            style="@style/tv_flow_2"
+            android:text="game over" />
+
+        <TextView
+            style="@style/tv_flow_2"
+            android:text="stack" />
+
+        <TextView
+            style="@style/tv_flow_2"
+            android:text="stack overflow" />
+
+        <TextView
+            style="@style/tv_flow_2"
+            android:text="segment faults" />
+
+        <TextView
+            style="@style/tv_flow_2"
+            android:text="hello" />
+
+        <TextView
+            style="@style/tv_flow_2"
+            android:text="matao android goxxx" />
+
+        <TextView
+            style="@style/tv_flow_2"
+            android:text="yo give me five" />
+
+        <TextView
+            style="@style/tv_flow_2"
+            android:text="ppnn13% dkstFeb.1st" />
+
+    </com.example.matao.flowlayoutdemo.FlowLayout>
+
+</LinearLayout>
